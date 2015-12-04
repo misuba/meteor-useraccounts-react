@@ -8,6 +8,7 @@ Package.describe({
 Package.onUse(function(api, where) {
   api.versionsFrom('1.2');
   api.use([
+    'templating',
     'react@0.1.13',
     'gwendall:blaze-to-react@0.1.0'
   ]);
